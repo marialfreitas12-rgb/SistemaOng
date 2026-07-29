@@ -1,0 +1,36 @@
+﻿@model PrjFinanceiro.Models.Agencia
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h2>Editar Agência</h2>
+        </div>
+        <div class="card-body">
+            <form action="/Agencia/Editar" method="post">
+
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+
+                <div class="form-group mb-3">
+                    <label for="nome">Nome da Agência</label>
+                    <input type="text" id="nome" name="nome" class="form-control" value="@Model.Nome" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" class="form-control" value="@Model.Cidade" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="estadoUF">Estado (UF)</label>
+                    <input type="text" id="estadoUF" name="estadoUF" class="form-control" value="@Model.EstadoUF" maxlength="2" required />
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                    <a href="/Agencia/Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
