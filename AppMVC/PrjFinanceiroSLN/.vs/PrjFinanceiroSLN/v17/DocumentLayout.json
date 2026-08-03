@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\animalapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\animalapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AnimalApiController.cs",
               "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AnimalApiController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\AnimalApiController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAcwFMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAcwGIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-29T13:34:18.698Z",
               "EditorCaption": ""
@@ -75,13 +75,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AnimalController.cs",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AnimalController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AnimalController.cs",
               "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AnimalController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\AnimalController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAcwFQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwFIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T09:10:08.116Z",
               "EditorCaption": ""
@@ -132,12 +132,11 @@
               "RelativeToolTip": "PrjFinanceiro\\Models\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T08:56:49.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T08:56:49.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Animal.cs",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Animal.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Animal.cs",
