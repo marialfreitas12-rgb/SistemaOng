@@ -47,7 +47,7 @@ namespace PrjFinanceiro.Controllers
         }
 
         [HttpPost]
-        public IActionResult Cadastrar([FromBody] AnimalCreateDto dto)
+        public IActionResult Cadastrar([FromBody] Animal dto)
         {
             // O [ApiController] já faz essa validação automaticamente, mas demonstrar em código reforça o aprendizado
             if (!ModelState.IsValid)
@@ -77,7 +77,7 @@ namespace PrjFinanceiro.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Atualizar(int id, [FromBody] AnimalCreateDto dto)
+        public IActionResult Atualizar(int id, [FromBody] Animal dto)
         {
             if (!ModelState.IsValid)
             {

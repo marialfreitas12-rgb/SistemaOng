@@ -1,34 +1,41 @@
-﻿@model IEnumerable<PrjFinanceiro.Models.Agencia>
+﻿@model IEnumerable<PrjFinanceiro.Models.Animal>
 
 <div class="container mt-5">
-    <h2 class="mb-4">Lista de Agências Bancárias -  @ViewBag.nomesenaii</h2>
+    <h2 class="mb-4">Lista de Animais -  @ViewBag.animais disponiveis</h2>
 
     <p>
-        <a href="/Agencia/Criar" class="btn btn-success">Cadastrar Nova Agência</a>
+        <a href="/Animal/Criar" class="btn btn-success">Cadastrar Novo Animal</a>
     </p>
 
     <table class="table table-bordered table-hover">
         <thead class="thead-dark">
             <tr>
-                <th>Código</th>
-                <th>Nome da Agência</th>
-                <th>Cidade</th>
-                <th>Estado (UF)</th>
-                <th>Ações</th>
+                <th>Idanimal</th>
+                <th>Nome do Animal</th>
+                <th>Sexo</th>
+                <th>Status</th>
+                <th>Porte</th>
+                <th>Raca</th>
+                <th>Dataresgate</th>
+                <th>Idade</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
-                <tr id="linha-@item.Codigo">                    
-                    <td>@item.Codigo</td>
+                <tr id="linha-@item.\IdAnimal">                    
+                    <td>@item.IdAnimal</td>
                     <td>@item.Nome</td>
-                    <td>@item.Cidade</td>
-                    <td>@item.EstadoUF</td>
+                    <td>@item.Sexo</td>
+                    <td>@item.Status</td>
+                    <td>@item.Porte</td>
+                    <td>@item.Raça</td>
+                    <td>@item.Idade</td>
+                    <td>@item.Dataresgate</td>
                     <td>
-                        <a href="/Agencia/Editar/@item.Codigo" class="btn btn-sm btn-primary">Editar</a>
+                        <a href="/Agencia/Editar/@item.IdAnimal" class="btn btn-sm btn-primary">Editar</a>
                         <button type="button" class="btn btn-danger"
-                                onclick="abrirModalExcluir(@item.Codigo, '@item.Nome')">
+                                onclick="abrirModalExcluir(@item.IdAnimal, '@item.Nome')">
                             Excluir
                         </button>
                     </td>
@@ -45,8 +52,8 @@
                 <h5 class="modal-title">Confirmar Exclusão</h5>
             </div>
             <div class="modal-body">
-                <p>Tem certeza que deseja excluir a agência <strong id="nomeAgenciaModal"></strong>?</p>
-                <input type="hidden" id="idAgenciaExcluir" />
+                <p>Tem certeza que deseja excluir este animal <strong id="nomeAnimalModal"></strong>?</p>
+                <input type="hidden" id="idAnimalExcluir" />
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
@@ -60,17 +67,17 @@
 <script>
     // Função para preparar o modal com os dados da agência selecionada
     function abrirModalExcluir(id, nome) {
-        $('#idAgenciaExcluir').val(id);
-        $('#nomeAgenciaModal').text(nome);
+        $('#idAnimalExcluir').val(id);
+        $('#nomeAnimalModal').text(nome);
         $('#modalExcluir').modal('show');
     }
 
     // Função que envia a requisição para o C#
     function confirmarExclusao() {
-        var id = $('#idAgenciaExcluir').val();
+        var id = $('#idAnimalExcluir').val();
 
         $.ajax({
-            url: '/Agencia/ExcluirConfirmadoModal',
+            url: '/Animal/ExcluirConfirmadoModal',
             type: 'POST',
             data: { codigo: id },
             success: function (result) {

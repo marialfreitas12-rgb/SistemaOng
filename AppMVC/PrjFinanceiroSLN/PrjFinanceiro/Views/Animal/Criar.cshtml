@@ -1,0 +1,57 @@
+﻿@model PrjFinanceiro.Models.Animal
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-success text-white">
+            <h2>Cadastrar Novo Animal</h2>
+        </div>
+        <div class="card-body">
+            <form action="/Animal/Criar" method="post">
+
+                <div class="form-group mb-3">
+                    <label for="nome">Nome do Animal</label>
+                    <input type="text" id="nome" name="nome" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="DataResgate">Data do Resgate</label>
+                    <input type="text" id="dataresgate" name="dataresgate" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="status">Status</label>
+                    <input type="text" id="status" name="status" class="form-control" maxlength="2" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label for="nome">Raça</label>
+                    <input type="text" id="raca" name="raca" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="Porte">Porte</label>
+                    <input type="text" id="porte" name="porte" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="Idade">Idade</label>
+                    <input type="text" id="idade" name="idade" class="form-control" maxlength="2" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Sexo">Sexo</label>
+                    <input type="text" id="sexo" name="sexo" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="Idade">Idanimal</label>
+                    <input type="text" id="idanimal" name="idanimal" class="form-control" maxlength="2" required />
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Salvar Animal</button>
+                    <a href="/Animal/Index" class="btn btn-secondary">Voltar para a Lista</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

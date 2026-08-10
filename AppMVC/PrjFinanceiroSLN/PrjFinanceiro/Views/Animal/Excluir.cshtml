@@ -1,0 +1,46 @@
+﻿@model PrjFinanceiro.Models.Animal
+
+<div class="container mt-5">
+    <div class="card border-danger">
+        <div class="card-header bg-danger text-white">
+            <h2>Excluir Animal</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="text-danger">Tem certeza que deseja excluir este animal?</h4>
+            <hr />
+
+            <dl class="row">
+                <dt class="col-sm-3">Idanimal:</dt>
+                <dd class="col-sm-9">@Model.IdAnimal</dd>
+
+                <dt class="col-sm-3">Nome:</dt>
+                <dd class="col-sm-9">@Model.Nome</dd>
+
+                <dt class="col-sm-3">Porte:</dt>
+                <dd class="col-sm-9">@Model.Porte</dd>
+
+                <dt class="col-sm-3">Sexo:</dt>
+                <dd class="col-sm-9">@Model.Sexo</dd>
+
+                <dt class="col-sm-3">Porte:</dt>
+                <dd class="col-sm-9">@Model.Porte</dd>
+
+                <dt class="col-sm-3">Status:</dt>
+                <dd class="col-sm-9">@Model.Status</dd>
+
+                <dt class="col-sm-3">Data Resgate:</dt> 
+                <dd class="col-sm-9">@Model.Dataresgate</dd>
+
+                <dt class="col-sm-3">Raça:</dt>
+                <dd class="col-sm-9">@Model.Raça</dd>
+            </dl>
+
+            <form action="/Animal/ExcluirConfirmado" method="post">
+                <input type="hidden" name="idanimal" value="@Model.IdAnimal" />
+
+                <button type="submit" class="btn btn-danger">Sim, Excluir</button>
+                <a href="Animal/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
