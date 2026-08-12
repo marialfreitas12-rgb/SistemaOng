@@ -1,43 +1,37 @@
-﻿@model PrjFinanceiro.Models.Funcionario
+﻿@model PrjFinanceiro.Models.Voluntario
 
 <div class="container mt-5">
     <div class="card border-danger">
         <div class="card-header bg-danger text-white">
-            <h2>Excluir Funcionario</h2>
+            <h2>Excluir Voluntário </h2>
         </div>
         <div class="card-body">
-            <h4 class="text-danger">Tem certeza que deseja excluir este funcionario?</h4>
+            <h4 class="text-danger">Tem certeza que deseja excluir este voluntário?</h4>
             <hr />
 
             <dl class="row">
-                <dt class="col-sm-3">Código:</dt>
-                <dd class="col-sm-9">@Model.Codigo</dd>
+                <dt class="col-sm-3">Idvoluntario:</dt>
+                <dd class="col-sm-9">@Model.Idvoluntario</dd>
 
                 <dt class="col-sm-3">Nome:</dt>
                 <dd class="col-sm-9">@Model.Nome</dd>
 
-                <dt class="col-sm-3">Data de Nascimento:</dt>
-                <dd class="col-sm-9">@Model.DataNascimento</dd>
+                <dt class="col-sm-3">Disponibilidade:</dt>
+                <dd class="col-sm-9">@Model.Disponibilidade</dd>
 
-                <dt class="col-sm-3">Cidade:</dt>
-                <dd class="col-sm-9">@Model.Cidade</dd>
-
-                <dt class="col-sm-3">Estado (UF):</dt>
-                <dd class="col-sm-9">@Model.EstadoUF</dd>
-
-                <dt class="col-sm-3">CPF:</dt>
-                <dd class="col-sm-9">@Model.CPF</dd>
+                <dt class="col-sm-3">E-mail:</dt>
+                <dd class="col-sm-9">@Model.Email</dd>
 
                 <dt class="col-sm-3">Telefone:</dt>
                 <dd class="col-sm-9">@Model.Telefone</dd>
 
             </dl>
 
-            <form action="/Funcionario/ExcluirConfirmado" method="post">
-                <input type="hidden" name="codigo" value="@Model.Codigo" />
+            <form action="/Voluntario/ExcluirConfirmado" method="post">
+                <input type="hidden" name="Idvoluntario" value="@Model.Idvoluntario" />
 
                 <button type="submit" class="btn btn-danger">Sim, Excluir</button>
-                <a href="/Funcionario/Index" class="btn btn-secondary">Cancelar</a>
+                <a href="/Voluntario/Index" class="btn btn-secondary">Cancelar</a>
             </form>
         </div>
     </div>

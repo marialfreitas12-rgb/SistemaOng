@@ -1,39 +1,34 @@
-﻿@model IEnumerable<PrjFinanceiro.Models.Funcionario>
+﻿@model IEnumerable<PrjFinanceiro.Models.Voluntario>
 
 <div class="container mt-5">
-    <h2 class="mb-4">Lista de Funcionarios - @ViewBag.nomesenaii</h2>
+    <h2 class="mb-4">Lista de Voluntários - @ViewBag.nomesenaii</h2>
 
     <p>
-        <a href="/Funcionario/Criar" class="btn btn-success">Cadastrar Novo Funcionario</a>
+        <a href="/Voluntario/Criar" class="btn btn-success">Cadastrar Novo Voluntário</a>
     </p>
 
     <table class="table table-bordered table-hover">
         <thead class="thead-dark">
             <tr>
-                <th>Código</th>
-                <th>Data de Nascimento</th>
+                <th>Id do Voluntário</th>
+                <th>Disponibilidade</th>
                 <th>Nome</th>
-                <th>Cidade</th>
-                <th>Estado (UF)</th>
-                <th>CPF</th>
+                <th>E-mail</th>
                 <th>Telefone</th>
-                <th>Ações</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
                 <tr>                    
-                    <td>@item.Codigo</td>
-                    <td>@item.DataNascimento</td>
+                    <td>@item.Idvoluntario</td>
+                    <td>@item.Disponibilidade</td>
                     <td>@item.Nome</td>
-                    <td>@item.Cidade</td>
-                    <td>@item.EstadoUF</td>
-                    <td>@item.CPF</td>
+                    <td>@item.Email</td>
                     <td>@item.Telefone</td>
                     <td>
-                        <a href="/Funcionario/Editar/@item.Codigo" class="btn btn-sm btn-primary">Editar</a>
-                        <a href="/Funcionario/Excluir/@item.Codigo" class="btn btn-sm btn-danger">Excluir</a>
+                        <a href="/Voluntario/Editar/@item.Idvoluntario" class="btn btn-sm btn-primary">Editar</a>
+                        <a href="/Voluntario/Excluir/@item.Idvoluntario" class="btn btn-sm btn-danger">Excluir</a>
                     </td>
                 </tr>
             }
