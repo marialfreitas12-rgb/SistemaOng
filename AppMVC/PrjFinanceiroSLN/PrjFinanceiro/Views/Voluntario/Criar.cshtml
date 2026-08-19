@@ -1,47 +1,70 @@
-﻿@model PrjFinanceiro.Models.Funcionario
+﻿@model PrjFinanceiro.Models.Voluntario
 
 <div class="container mt-5">
     <div class="card">
         <div class="card-header bg-success text-white">
-            <h2>Cadastrar Novo Funcionario</h2>
+            <h2>Cadastrar Novo Voluntário</h2>
         </div>
+
         <div class="card-body">
-            <form action="/Funcionario/Criar" method="post">
+            <form action="/Voluntario/Criar" method="post">
 
                 <div class="form-group mb-3">
-                    <label for="nome">Nome do Funcionario</label>
-                    <input type="text" id="nome" name="nome" class="form-control" required />
-                </div>
-
-                <div class="form-group mb-3">
-                    <label for="data">Data de Nascimento</label>
-                    <input type="date" id="data" name="data" class="form-control" required />
-                </div>
-
-                <div class="form-group mb-3">
-                    <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" name="cidade" class="form-control" required />
+                    <label for="idVoluntario">ID do Voluntário</label>
+                    <input type="number"
+                           id="idVoluntario"
+                           name="idVoluntario"
+                           class="form-control"
+                           required />
                 </div>
 
                 <div class="form-group mb-3">
-                    <label for="estadoUF">Estado (UF)</label>
-                    <input type="text" id="estadoUF" name="estadoUF" class="form-control" maxlength="2" required />
+                    <label for="nome">Nome do Voluntário</label>
+                    <input type="text"
+                           id="nome"
+                           name="nome"
+                           class="form-control"
+                           required />
                 </div>
-                <div class="form-group mb-3">
-                    <label for="cpf">CPF</label>
-                    <input type="text" id="cpf" name="cpf" class="form-control" maxlength="20" required />
-                </div>
+
                 <div class="form-group mb-3">
                     <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" name="telefone" class="form-control" maxlength="20" required />
+                    <input type="text"
+                           id="telefone"
+                           name="telefone"
+                           class="form-control"
+                           maxlength="20"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="disponibilidade">Disponibilidade</label>
+                    <input type="text"
+                           id="disponibilidade"
+                           name="disponibilidade"
+                           class="form-control"
+                           placeholder="Ex: Segunda a sexta, período da manhã"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="email">E-mail</label>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           class="form-control"
+                           required />
                 </div>
 
                 <div class="form-group mt-4">
-                    <button type="submit" class="btn btn-primary">Salvar Funcionario</button>
-                    <a href="/Funcionario/Index" class="btn btn-secondary">Voltar para a Lista</a>
+                    <button type="submit" class="btn btn-primary">
+                        Salvar Voluntário
+                    </button>
+
+                    <a href="/Voluntario/Index" class="btn btn-secondary">
+                        Voltar para a Lista
+                    </a>
                 </div>
-
-
 
             </form>
         </div>

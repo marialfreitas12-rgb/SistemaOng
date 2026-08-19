@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\doacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\doacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\doacaoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\doacaoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\services\\doacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\services\\doacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\animalapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\animalapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\voluntario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\voluntario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\voluntario\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\voluntario\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\voluntario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\voluntario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\voluntario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\voluntario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\animal\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\animal\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\animal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\animal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,22 +63,6 @@
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\animal\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\animal\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\animal\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\animalapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\animalapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\voluntarioapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\voluntarioapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\voluntario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\voluntario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\luiza\\sistemaong\\appmvc\\prjfinanceirosln\\prjfinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,24 +98,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Doacao.cs",
+              "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\Doacao.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Services\\Doacao.cs",
+              "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\Doacao.cs*",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Services\\Doacao.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T12:35:53.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoacaoApiController.cs",
+              "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\DoacaoApiController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\DoacaoApiController.cs",
+              "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\DoacaoApiController.cs*",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\DoacaoApiController.cs*",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwGgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T12:34:47.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DoacaoController.cs",
+              "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\DoacaoController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\DoacaoController.cs",
+              "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\DoacaoController.cs*",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\DoacaoController.cs*",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAwJ0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T12:31:23.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Voluntario\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Voluntario\\Index.cshtml",
+              "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Voluntario\\Index.cshtml*",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Voluntario\\Index.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-19T12:29:37.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Voluntario\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Voluntario\\Excluir.cshtml",
+              "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Voluntario\\Excluir.cshtml*",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Voluntario\\Excluir.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-19T12:28:56.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Voluntario\\Editar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Voluntario\\Editar.cshtml",
+              "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Voluntario\\Editar.cshtml*",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Voluntario\\Editar.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-19T12:28:05.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Voluntario\\Criar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Voluntario\\Criar.cshtml",
+              "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Voluntario\\Criar.cshtml*",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Voluntario\\Criar.cshtml*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-19T12:25:37.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Animal\\Index.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Animal\\Index.cshtml",
               "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Animal\\Index.cshtml",
               "RelativeToolTip": "PrjFinanceiro\\Views\\Animal\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-10T14:07:47.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Excluir.cshtml",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Animal\\Excluir.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Animal\\Excluir.cshtml",
@@ -95,12 +214,11 @@
               "RelativeToolTip": "PrjFinanceiro\\Views\\Animal\\Excluir.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-10T14:02:10.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T14:02:10.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Animal\\Editar.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Animal\\Editar.cshtml",
@@ -108,12 +226,11 @@
               "RelativeToolTip": "PrjFinanceiro\\Views\\Animal\\Editar.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAYwDsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-10T14:00:21.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T14:00:21.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Criar.cshtml",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Animal\\Criar.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Animal\\Criar.cshtml",
@@ -126,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "VoluntarioApiController.cs",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\VoluntarioApiController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\VoluntarioApiController.cs",
@@ -134,12 +251,11 @@
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\VoluntarioApiController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T12:10:38.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T12:10:38.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "VoluntarioController.cs",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\VoluntarioController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\VoluntarioController.cs",
@@ -147,12 +263,11 @@
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\VoluntarioController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T11:52:30.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T11:52:30.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "Voluntario.cs",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Voluntario.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Voluntario.cs",
@@ -160,8 +275,7 @@
               "RelativeToolTip": "PrjFinanceiro\\Models\\Voluntario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T11:49:00.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T11:49:00.961Z"
             },
             {
               "$type": "Document",
@@ -171,27 +285,27 @@
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AnimalApiController.cs",
               "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AnimalApiController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\AnimalApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAmwH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-29T13:34:18.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "AnimalController.cs",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AnimalController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AnimalController.cs",
               "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AnimalController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\AnimalController.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAAwIMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAIIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T09:10:08.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Program.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Program.cs",
@@ -199,12 +313,11 @@
               "RelativeToolTip": "PrjFinanceiro\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T09:08:49.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T09:08:49.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\HomeController.cs",
@@ -216,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "PrjFinanceiro.csproj",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\PrjFinanceiro.csproj",
               "RelativeDocumentMoniker": "PrjFinanceiro\\PrjFinanceiro.csproj",
@@ -228,33 +341,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\AppDbContext.cs",
-              "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs*",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\AppDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T08:56:49.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Animal.cs",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Animal.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Animal.cs",
               "ToolTip": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Animal.cs",
               "RelativeToolTip": "PrjFinanceiro\\Models\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T08:52:48.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\luiza\\SistemaOng\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
               "RelativeDocumentMoniker": "PrjFinanceiro\\appsettings.json",

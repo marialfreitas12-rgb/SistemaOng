@@ -1,0 +1,269 @@
+[
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.AnimalApiController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/AnimalApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PrjFinanceiro.Models.Animal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.AnimalApiController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/AnimalApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.AnimalApiController",
+    "Method": "Atualizar",
+    "RelativePath": "api/AnimalApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PrjFinanceiro.Models.Animal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.AnimalApiController",
+    "Method": "Remover",
+    "RelativePath": "api/AnimalApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.AnimalApiController",
+    "Method": "ListarTodos2",
+    "RelativePath": "api/AnimalApi/ativas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.AnimalApiController",
+    "Method": "ListarTodos",
+    "RelativePath": "api/AnimalApi/lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.DoacaoApiController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/DoacaoApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PrjFinanceiro.Models.Doacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.DoacaoApiController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/DoacaoApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.DoacaoApiController",
+    "Method": "Atualizar",
+    "RelativePath": "api/DoacaoApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PrjFinanceiro.Models.Doacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.DoacaoApiController",
+    "Method": "Remover",
+    "RelativePath": "api/DoacaoApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.DoacaoApiController",
+    "Method": "ListarTodos2",
+    "RelativePath": "api/DoacaoApi/ativas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.DoacaoApiController",
+    "Method": "ListarTodos",
+    "RelativePath": "api/DoacaoApi/lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.VoluntarioApiController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/VoluntarioApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PrjFinanceiro.Models.Voluntario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.VoluntarioApiController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/VoluntarioApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.VoluntarioApiController",
+    "Method": "Atualizar",
+    "RelativePath": "api/VoluntarioApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PrjFinanceiro.Models.Voluntario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.VoluntarioApiController",
+    "Method": "Remover",
+    "RelativePath": "api/VoluntarioApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.VoluntarioApiController",
+    "Method": "ListarTodos2",
+    "RelativePath": "api/VoluntarioApi/ativas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjFinanceiro.Controllers.VoluntarioApiController",
+    "Method": "ListarTodos",
+    "RelativePath": "api/VoluntarioApi/lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

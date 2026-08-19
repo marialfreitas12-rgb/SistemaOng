@@ -1,46 +1,66 @@
-﻿@model PrjFinanceiro.Models.Funcionario
+﻿@model PrjFinanceiro.Models.Voluntario
 
 <div class="container mt-5">
     <div class="card">
         <div class="card-header bg-primary text-white">
-            <h2>Editar Funcionario</h2>
+            <h2>Editar Voluntário</h2>
         </div>
+
         <div class="card-body">
-            <form action="/Funcionario/Editar" method="post">
+            <form action="/Voluntario/Editar" method="post">
 
-                <input type="hidden" name="codigo" value="@Model.Codigo" />
-
-                <div class="form-group mb-3">
-                    <label for="nome">Nome do Funcionario</label>
-                    <input type="text" id="nome" name="nome" class="form-control" required />
-                </div>
+                <input type="hidden" name="idVoluntario" value="@Model.Idvoluntario" />
 
                 <div class="form-group mb-3">
-                    <label for="data">Data de Nascimento</label>
-                    <input type="date" id="data" name="data" class="form-control" required />
+                    <label for="nome">Nome do Voluntário</label>
+                    <input type="text"
+                           id="nome"
+                           name="nome"
+                           class="form-control"
+                           value="@Model.Nome"
+                           required />
                 </div>
 
-                <div class="form-group mb-3">
-                    <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" name="cidade" class="form-control" required />
-                </div>
-
-                <div class="form-group mb-3">
-                    <label for="estadoUF">Estado (UF)</label>
-                    <input type="text" id="estadoUF" name="estadoUF" class="form-control" maxlength="2" required />
-                </div>
-                <div class="form-group mb-3">
-                    <label for="cpf">CPF</label>
-                    <input type="text" id="cpf" name="cpf" class="form-control" maxlength="20" required />
-                </div>
                 <div class="form-group mb-3">
                     <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" name="telefone" class="form-control" maxlength="20" required />
+                    <input type="text"
+                           id="telefone"
+                           name="telefone"
+                           class="form-control"
+                           maxlength="20"
+                           value="@Model.Telefone"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="disponibilidade">Disponibilidade</label>
+                    <input type="text"
+                           id="disponibilidade"
+                           name="disponibilidade"
+                           class="form-control"
+                           value="@Model.Disponibilidade"
+                           placeholder="Ex: Segunda a sexta, período da manhã"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="email">E-mail</label>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           class="form-control"
+                           value="@Model.Email"
+                           required />
                 </div>
 
                 <div class="form-group mt-4">
-                    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
-                    <a href="/Funcionario/Index" class="btn btn-secondary">Cancelar</a>
+                    <button type="submit" class="btn btn-primary">
+                        Salvar Alterações
+                    </button>
+
+                    <a href="/Voluntario/Index" class="btn btn-secondary">
+                        Cancelar
+                    </a>
                 </div>
 
             </form>

@@ -1,0 +1,143 @@
+﻿@model IEnumerable<PrjFinanceiro.Models.Doacao>
+
+<div class="container mt-5">
+    <h2 class="mb-4">
+        Lista de Doações - @ViewBag.nomedoacao
+    </h2>
+
+    <p>
+        <a href="/Doacao/Criar" class="btn btn-success">
+            Cadastrar Nova Doação
+        </a>
+    </p>
+
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID Doação</th>
+                <th>Data da Doação</th>
+                <th>Status</th>
+                <th>ID Animal</th>
+                <th>ID Pessoa</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr id="linha-@item.IdDoacao">
+                    <td>@item.IdDoacao</td>
+                    <td>@item.DataDoacao</td>
+                    <td>@item.Status</td>
+                    <td>@item.IdAnimal</td>
+                    <td>@item.IdPessoa</td>
+
+                    <td>
+                        <a href="/Doacao/Editar/@item.IdDoacao"
+                           class="btn btn-sm btn-primary">
+                            Editar
+                        </a>
+
+                        <button type="button"
+                                class="btn btn-danger"
+                                onclick="abrirModalExcluir(@item.IdDoacao)">
+                            Excluir
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Modal de confirmação de exclusão -->
+<div class="modal fade" id="modalExcluir" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    Confirmar Exclusão
+                </h5>
+            </div>
+
+            <div class="modal-body">
+                <p>
+                    Tem certeza que deseja excluir esta doação?
+                </p>
+
+                <input type="hidden" id="idDoacaoExcluir" />
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                    Cancelar
+                </button>
+
+                <button type="button"
+                        class="btn btn-danger"
+                        onclick="confirmarExclusao()">
+                    Sim, Excluir
+                </button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    // Abre o modal e guarda o ID da doação
+    function abrirModalExcluir(id) {
+        $('#idDoacaoExcluir').val(id);
+        $('#modalExcluir').modal('show');
+    }
+
+
+    // Envia a requisição para o Controller
+    function confirmarExclusao() {
+
+        var id = $('#idDoacaoExcluir').val();
+
+        $.ajax({
+            url: '/Doacao/ExcluirConfirmadoModal',
+            type: 'POST',
+
+            data: {
+                codigo: id
+            },
+
+            success: function (result) {
+
+                if (result.success) {
+
+                    // Fecha o modal
+                    $('#modalExcluir').modal('hide');
+
+                    // Remove a linha da tabela
+                    $('#linha-' + id).fadeOut(500, function () {
+                        $(this).remove();
+                    });
+
+                } else {
+
+                    alert(result.message);
+
+                }
+            },
+
+            error: function () {
+
+                alert("Erro técnico ao tentar excluir.");
+
+            }
+        });
+    }
+
+</script>

@@ -1,0 +1,79 @@
+﻿@model PrjFinanceiro.Models.Doacao
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h2>Editar Doação</h2>
+        </div>
+
+        <div class="card-body">
+            <form action="/Doacao/Editar" method="post">
+
+                <input type="hidden"
+                       name="iddoacao"
+                       value="@Model.IdDoacao" />
+
+                <div class="form-group mb-3">
+                    <label for="iddoacao">ID da Doação</label>
+                    <input type="text"
+                           id="iddoacao"
+                           name="iddoacao"
+                           class="form-control"
+                           value="@Model.IdDoacao"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="datadoacao">Data da Doação</label>
+                    <input type="text"
+                           id="datadoacao"
+                           name="datadoacao"
+                           class="form-control"
+                           value="@Model.DataDoacao"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="status">Status</label>
+                    <input type="text"
+                           id="status"
+                           name="status"
+                           class="form-control"
+                           value="@Model.Status"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="idanimal">ID do Animal</label>
+                    <input type="text"
+                           id="idanimal"
+                           name="idanimal"
+                           class="form-control"
+                           value="@Model.IdAnimal"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="idpessoa">ID da Pessoa</label>
+                    <input type="text"
+                           id="idpessoa"
+                           name="idpessoa"
+                           class="form-control"
+                           value="@Model.IdPessoa"
+                           required />
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">
+                        Salvar Alterações
+                    </button>
+
+                    <a href="/Doacao/Index" class="btn btn-secondary">
+                        Cancelar
+                    </a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

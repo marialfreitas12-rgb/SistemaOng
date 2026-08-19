@@ -1,0 +1,71 @@
+﻿@model PrjFinanceiro.Models.Doacao
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-success text-white">
+            <h2>Cadastrar Nova Doação</h2>
+        </div>
+
+        <div class="card-body">
+            <form action="/Doacao/Criar" method="post">
+
+                <div class="form-group mb-3">
+                    <label for="iddoacao">ID da Doação</label>
+                    <input type="text"
+                           id="iddoacao"
+                           name="iddoacao"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="datadoacao">Data da Doação</label>
+                    <input type="text"
+                           id="datadoacao"
+                           name="datadoacao"
+                           class="form-control"
+                           placeholder="Ex: 20260819"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="status">Status</label>
+                    <input type="text"S
+                           id="status"
+                           name="status"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="idanimal">ID do Animal</label>
+                    <input type="text"
+                           id="idanimal"
+                           name="idanimal"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="idpessoa">ID da Pessoa</label>
+                    <input type="text"
+                           id="idpessoa"
+                           name="idpessoa"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">
+                        Salvar Doação
+                    </button>
+
+                    <a href="/Doacao/Index" class="btn btn-secondary">
+                        Voltar para a Lista
+                    </a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

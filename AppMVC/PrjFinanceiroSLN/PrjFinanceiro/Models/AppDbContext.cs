@@ -10,7 +10,8 @@ namespace PrjFinanceiro.Models
 
         public DbSet<Animal> Animal { get; set; }
         public DbSet<Voluntario> Voluntario { get; set; }
-        
+        public DbSet<Doacao> Doacao { get; set; }
+
 
     }
 }
